@@ -12,6 +12,18 @@ Disk analyser and cleanup tool
 x install wiper
 ```
 
+## 代码规模
+
+合计: **2,478** 行代码（覆盖前 5 种语言、共 **50** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 2,448 | 37 | 424 | 31 |
+| Toml | 16 | 0 | 1 | 1 |
+| Sh | 14 | 5 | 7 | 2 |
+| Markdown | 0 | 184 | 56 | 4 |
+| Text | 0 | 232 | 10 | 12 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/ikebastuz/wiper>
@@ -22,19 +34,6 @@ x install wiper
 - **最新版本**: `v0.2.1` (2024-05-24)
 - **最近提交**: 2025-11-14
 - **Release 含资产**: 8 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [wiper-aarch64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.sha256) | 115 B | `native/darwin/arm64` |
-| [wiper-aarch64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.tar.gz) | 608.7 KiB | `native/darwin/arm64` |
-| [wiper-x86_64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.sha256) | 114 B | `native/darwin/x64` |
-| [wiper-x86_64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.tar.gz) | 623.7 KiB | `native/darwin/x64` |
-| [wiper-x86_64-unknown-linux-gnu.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.sha256) | 119 B | `native/linux/x64/glibc` |
-| [wiper-x86_64-unknown-linux-gnu.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.tar.gz) | 1.5 MiB | `native/linux/x64/glibc` |
-| [wiper.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.sha256) | 94 B | `other` |
-| [wiper.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.tar.gz) | 598.5 KiB | `native/unknown` |
 
 ## 流行度
 
@@ -49,20 +48,32 @@ x install wiper
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 1 | 1 | 0 | 1 | 1 |
+| last720d | 2024-09-20 | 0 | 1 | 2 | 0 | 2 | 1 |
 
-## 代码规模
+## Release 资产
 
-合计: **2,478** 行代码（覆盖前 5 种语言、共 **50** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [wiper-aarch64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.sha256) | 115 B | `native/darwin/arm64` |
+| [wiper-aarch64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.tar.gz) | 608.7 KiB | `native/darwin/arm64` |
+| [wiper-x86_64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.sha256) | 114 B | `native/darwin/x64` |
+| [wiper-x86_64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.tar.gz) | 623.7 KiB | `native/darwin/x64` |
+| [wiper-x86_64-unknown-linux-gnu.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.sha256) | 119 B | `native/linux/x64/glibc` |
+| [wiper-x86_64-unknown-linux-gnu.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.tar.gz) | 1.5 MiB | `native/linux/x64/glibc` |
+| [wiper.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.sha256) | 94 B | `other` |
+| [wiper.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.tar.gz) | 598.5 KiB | `native/unknown` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 2,448 | 37 | 424 | 31 |
-| Toml | 16 | 0 | 1 | 1 |
-| Sh | 14 | 5 | 7 | 2 |
-| Markdown | 0 | 184 | 56 | 4 |
-| Text | 0 | 232 | 10 | 12 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/wiper) 上共有 **8** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**0** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Nix unstable | `0.2.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -73,4 +84,4 @@ wiper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:33:21Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:02:48Z._
