@@ -22,11 +22,23 @@ x install wiper
 - **Latest**: `v0.2.1` (2024-05-24)
 - **Last commit**: 2025-11-14
 - **Assets in release**: 8
-- **Published**: 2024-05-24T19:38:51Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [wiper-aarch64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.sha256) | 115 B | `native/darwin/arm64` |
+| [wiper-aarch64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.tar.gz) | 608.7 KiB | `native/darwin/arm64` |
+| [wiper-x86_64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.sha256) | 114 B | `native/darwin/x64` |
+| [wiper-x86_64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.tar.gz) | 623.7 KiB | `native/darwin/x64` |
+| [wiper-x86_64-unknown-linux-gnu.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.sha256) | 119 B | `native/linux/x64/glibc` |
+| [wiper-x86_64-unknown-linux-gnu.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.tar.gz) | 1.5 MiB | `native/linux/x64/glibc` |
+| [wiper.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.sha256) | 94 B | `other` |
+| [wiper.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.tar.gz) | 598.5 KiB | `native/unknown` |
 
 ## Popularity
 
-- **Stars**: 248 · **Forks**: 8 · **Open issues**: 16 · **Contributors**: 3
+- **Stars**: 249 · **Forks**: 8 · **Open issues**: 16 · **Contributors**: 3
 
 ## Totals (cumulative)
 
@@ -57,8 +69,8 @@ Total: **2,478** lines of code across **50** files in the top 5 languages.
 Install metadata for wiper lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wiper` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/wiper.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/wiper.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:40:10Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:33:21Z._

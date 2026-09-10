@@ -4,7 +4,7 @@
 
 Disk analyser and cleanup tool
 
-![wiper](https://repo.x-cmd.io/wiper.svg)
+![wiper](https://repo.x-cmd.io/wiper.svg?lang=zh)
 
 ## 安装
 
@@ -22,11 +22,23 @@ x install wiper
 - **最新版本**: `v0.2.1` (2024-05-24)
 - **最近提交**: 2025-11-14
 - **Release 含资产**: 8 个
-- **发布时间**: 2024-05-24T19:38:51Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [wiper-aarch64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.sha256) | 115 B | `native/darwin/arm64` |
+| [wiper-aarch64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-aarch64-apple-darwin.tar.gz) | 608.7 KiB | `native/darwin/arm64` |
+| [wiper-x86_64-apple-darwin.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.sha256) | 114 B | `native/darwin/x64` |
+| [wiper-x86_64-apple-darwin.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-apple-darwin.tar.gz) | 623.7 KiB | `native/darwin/x64` |
+| [wiper-x86_64-unknown-linux-gnu.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.sha256) | 119 B | `native/linux/x64/glibc` |
+| [wiper-x86_64-unknown-linux-gnu.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper-x86_64-unknown-linux-gnu.tar.gz) | 1.5 MiB | `native/linux/x64/glibc` |
+| [wiper.sha256](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.sha256) | 94 B | `other` |
+| [wiper.tar.gz](https://github.com/ikebastuz/wiper/releases/download/v0.2.1/wiper.tar.gz) | 598.5 KiB | `native/unknown` |
 
 ## 流行度
 
-- **Star**: 248 · **Fork**: 8 · **开放 issue**: 16 · **贡献者**: 3
+- **Star**: 249 · **Fork**: 8 · **开放 issue**: 16 · **贡献者**: 3
 
 ## 累计统计
 
@@ -61,4 +73,4 @@ wiper 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:40:10Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:33:21Z._
