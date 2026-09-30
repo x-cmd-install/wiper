@@ -14,11 +14,11 @@ x install wiper
 
 ## Code insight
 
-Total: **2,478** lines of code across **50** files in the top 5 languages.
+Total: **2,306** lines of code across **49** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,448 | 37 | 424 | 31 |
+| Rust | 2,276 | 40 | 413 | 30 |
 | Toml | 16 | 0 | 1 | 1 |
 | Sh | 14 | 5 | 7 | 2 |
 | Markdown | 0 | 184 | 56 | 4 |
@@ -32,7 +32,7 @@ Total: **2,478** lines of code across **50** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v0.2.1` (2024-05-24)
-- **Last commit**: 2025-11-14
+- **Last commit**: 2026-09-30
 - **Assets in release**: 8
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **2,478** lines of code across **50** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 5 · **Merged PRs**: 14 · **Open PRs**: 2 · **Closed issues**: 7 · **Open issues**: 9 · **Commits**: 125
+- **Releases**: 5 · **Merged PRs**: 14 · **Open PRs**: 2 · **Closed issues**: 7 · **Open issues**: 9 · **Commits**: 126
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-31 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-04 | 0 | 1 | 1 | 1 | 0 | 1 |
-| last720d | 2024-10-09 | 0 | 1 | 2 | 1 | 1 | 1 |
+| 30d | 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-08-01 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 90d | 2026-07-02 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last180d | 2026-04-03 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 360d | 2025-10-05 | 0 | 1 | 1 | 1 | 0 | 2 |
+| last720d | 2024-10-10 | 0 | 1 | 2 | 1 | 1 | 2 |
 
 ## Release assets
 
@@ -76,4 +76,4 @@ Install metadata for wiper lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:42:10Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:37:34Z._
